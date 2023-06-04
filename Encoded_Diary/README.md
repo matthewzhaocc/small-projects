@@ -8,7 +8,7 @@ This project allows you to write and store entries in a coded form. Each entry i
 
 When viewing previous entries, the program deciphers the encoded text using the reverse process of the cipher, revealing the original content. You can also write new entries, which are encoded and stored in the diary file.
 
-Anyone opening the diary file itself will just find a jumble of letters.
+Anyone opening the diary file itself will just find a jumble of characters.
 ## Getting Started
 
 ### Dependencies
