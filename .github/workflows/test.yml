@@ -1,0 +1,16 @@
+name: "test Runme"
+
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: "Person to greet"
+        required: true
+        default: "Mona the Octocat"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello world action step
+        run: echo "Hello world my name is ${{ github.event.inputs.name }}"
